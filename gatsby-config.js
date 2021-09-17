@@ -8,7 +8,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Project de Marco - La galeria`,
   },
   plugins: [
     {
@@ -17,22 +17,30 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Home`,
+            slug: `/home`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            title: `Gallery`,
+            slug: `/gallery`,
+          },
+          {
+            title: `Biography`,
+            slug: `/biography`,
+          },
+          {
+            title: `Contact`,
+            slug: `/contact`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Instagram`,
+            url: `https://www.instagram.com/project_de_marco/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `OpenSea`,
+            url: `https://opensea.io/project_de_marco`,
           },
         ],
       },
