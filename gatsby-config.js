@@ -18,7 +18,7 @@ module.exports = {
         navigation: [
           {
             title: `Home`,
-            slug: `/home`,
+            slug: `/`,
           },
           {
             title: `Gallery`,
